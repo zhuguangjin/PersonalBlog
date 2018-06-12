@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/classes" path="src/main/java">
+	<classpathentry excluding="com.blog/|com.blog/controller/|com.blog/dao/|com.blog/entity/|com.blog/listener/|com.blog/lucene/|com.blog/realm/|com.blog/service/|com.blog/util/|com.blog/" kind="src" output="target/classes" path="src/main/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
